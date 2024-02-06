@@ -1,0 +1,133 @@
+@font-face {
+    font-family: comic;
+    src: url(Norse-Bold.otf);
+}
+
+@font-face {
+    font-family: comic;
+    src: url(fuentes/LEMONMILK-Light.otf);
+}
+@font-face {
+    font-family: comic2;
+    src: url(fuentes/LEMONMILK-Bold.otf);
+}
+@font-face {
+    font-family: comic3;
+    src: url(fuentes/LEMONMILK-RegularItalic.otf);
+}
+@font-face {
+    font-family: comic4;
+    src: url(fuentes/LEMONMILK-BoldItalic.otf);
+}
+@font-face {
+    font-family: comic5;
+    src: url(fuentes/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: comic6;
+    src: url(fuentes/Catchye.otf);
+}
+@font-face {
+    font-family: comic7;
+    src: url(fuentes/Nexa-ExtraLight.ttf);
+}
+@font-face {
+    font-family: comic8;
+    src: url(fuentes/Nexa-Heavy.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: comic7    ;
+}
+.fondito{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    font-family: comic7;
+    width: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    background-image: url(img.jpg);
+}
+.principal{
+    height:753px;
+    display: flex;
+
+}
+form{
+    width: 100%;
+}
+form p {
+    padding: 20px;
+    margin-top: 80px;
+}
+h3{
+    padding: 20px;
+    margin-top: 10px;
+}
+section{
+
+
+    box-shadow: 0px 4px 8px rgb(144, 144, 144);
+    width: 100%;
+
+}
+section div{
+    margin-left: 20px;
+padding:7px;
+    width: 80%;
+}
+label{
+    font-weight: 1000;
+    letter-spacing: 2px;
+    font-size: 10px;
+    display: inline-block;
+    width: 30%;
+    margin-right: 30px;
+}
+input{
+    border: 1px solid;
+    border-radius: 5px;
+    margin-right: 30px;
+    width: 30%;
+}
+input:focus{
+    outline:none;
+    border-top: #4e861d 3px solid;
+}
+
+.button{
+    border: none;
+    color: white;
+    background-color: #596D48;
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+}h2{
+    margin-left:20px ;
+}
+.fondito_div{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.472);
+    width: 100%;
+}
+img{
+    width: 100px;
+}
+.error{
+    border-bottom: 3px solid red;
+}
+.h6{
+    color: red;
+    font-size: 8px;
+    
+}
